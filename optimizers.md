@@ -10,3 +10,13 @@
 2. Provide an initial guess
 3. Call the optimizer
 
+##Convex Problems
+* Draw line between any two points
+* Convex if line is above graph
+
+##Build a parameterized model
+* f(x) = c0 * x + c1
+
+What are we minimizing?
+
+Sum squares of errors or abs() of errors
