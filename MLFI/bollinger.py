@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def symbol_to_path(symbol, bas_dir="C:/Users/Adam/Desktop/Historical_Data"):
+def symbol_to_path(symbol, bas_dir="../Historical_Data"):
     return os.path.join(bas_dir, "{}.csv".format(str(symbol)))
 
 
